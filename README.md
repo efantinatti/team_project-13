@@ -108,6 +108,7 @@ Work periods will also be used as opportunities for teams to collaborate and wor
 ## Roles
 
 ## Diagram
+![Main Diagram](data/Team-13/Images/Diagram_01.jpg?raw=true "Diagram 01")
 
 ## Team 13 - Rules of Engagement
 * Be open and transparent in your communication to ensure everyone shares information.
