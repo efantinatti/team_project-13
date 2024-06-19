@@ -109,6 +109,38 @@ Work periods will also be used as opportunities for teams to collaborate and wor
 
 ## Diagram
 
+## Team 13 - Rules of Engagement
+* Be open and transparent in your communication to ensure everyone shares information.
+  * [ ] Acknowledged - Angel
+  * [ ] Acknowledged - Alison Wu
+  * [X] Acknowledged - Ernani Fantinatti
+  * [ ] Acknowledged - Fredy Rincón
+  * [ ] Acknowledged - James Li
+* Clearly define each team member's role to avoid confusion and ensure everyone is accountable.
+  * [ ] Acknowledged - Angel
+  * [ ] Acknowledged - Alison Wu
+  * [X] Acknowledged - Ernani Fantinatti
+  * [ ] Acknowledged - Fredy Rincón
+  * [ ] Acknowledged - James Li
+* Encourage all team members to participate and respect different perspectives.
+  * [ ] Acknowledged - Angel
+  * [ ] Acknowledged - Alison Wu
+  * [X] Acknowledged - Ernani Fantinatti
+  * [ ] Acknowledged - Fredy Rincón
+  * [ ] Acknowledged - James Li
+* Address disagreements promptly and positively manage them.
+  * [ ] Acknowledged - Angel
+  * [ ] Acknowledged - Alison Wu
+  * [X] Acknowledged - Ernani Fantinatti
+  * [ ] Acknowledged - Fredy Rincón
+  * [ ] Acknowledged - James Li
+* Prioritize essential issues, stay focused, and make good use of time during meetings and collaborations.
+  * [ ] Acknowledged - Angel
+  * [ ] Acknowledged - Alison Wu
+  * [X] Acknowledged - Ernani Fantinatti
+  * [ ] Acknowledged - Fredy Rincón
+  * [ ] Acknowledged - James Li
+
 ## Answering questions:
 * What is the primary focus within the dataset?<br>
     * This dataset gives a detailed look at customer behavior on an e-commerce platform. Each record represents a unique customer, showing their interactions and transactions. The information helps analyze customer preferences, engagement, and satisfaction. Businesses can use this data to make informed decisions to improve the customer experience.<br>
