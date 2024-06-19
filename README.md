@@ -116,31 +116,31 @@ Work periods will also be used as opportunities for teams to collaborate and wor
   * [ ] Acknowledged - Alison Wu
   * [X] Acknowledged - Ernani Fantinatti
   * [ ] Acknowledged - Fredy Rincón
-  * [ ] Acknowledged - James Li
+  * [x] Acknowledged - James Li
 * Clearly define each team member's role to avoid confusion and ensure everyone is accountable.
   * [ ] Acknowledged - Angel
   * [ ] Acknowledged - Alison Wu
   * [X] Acknowledged - Ernani Fantinatti
   * [ ] Acknowledged - Fredy Rincón
-  * [ ] Acknowledged - James Li
+  * [x] Acknowledged - James Li
 * Encourage all team members to participate and respect different perspectives.
   * [ ] Acknowledged - Angel
   * [ ] Acknowledged - Alison Wu
   * [X] Acknowledged - Ernani Fantinatti
   * [ ] Acknowledged - Fredy Rincón
-  * [ ] Acknowledged - James Li
+  * [x] Acknowledged - James Li
 * Address disagreements promptly and positively manage them.
   * [ ] Acknowledged - Angel
   * [ ] Acknowledged - Alison Wu
   * [X] Acknowledged - Ernani Fantinatti
   * [ ] Acknowledged - Fredy Rincón
-  * [ ] Acknowledged - James Li
+  * [x] Acknowledged - James Li
 * Prioritize essential issues, stay focused, and make good use of time during meetings and collaborations.
   * [ ] Acknowledged - Angel
   * [ ] Acknowledged - Alison Wu
   * [X] Acknowledged - Ernani Fantinatti
   * [ ] Acknowledged - Fredy Rincón
-  * [ ] Acknowledged - James Li
+  * [x] Acknowledged - James Li
 
 ## Answering questions:
 * What is the primary focus within the dataset?<br>
