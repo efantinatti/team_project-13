@@ -160,13 +160,19 @@ Work periods will also be used as opportunities for teams to collaborate and wor
 
 * What are the key variables and attributes in your dataset?<br>
   * sdadfsdfsd
+  * Genger, Discount Applied and Satisfaction Level
 * How can we explore the relationships between different variables?<br>
       * sdadfsdfsd
+      * Using chi-square method
 * Are there any patterns or trends in the data that we can identify?<br>
       * sdadfsdfsd
+      * yes, for males, discounts seem to cause dissatisfaction, while for females, the response to discounts is mixed and might depend on other factors not captured in this dataset.
 * Who is the intended audience for our data analysis?<br>
       * sdadfsdfsd
+      * Marketing department
 * What is the question our analysis is trying to answer?<br>
       * sdadfsdfsd
+      * The difference in sensitivity of genders reaction of discounts being applied or not
 * Are there any specific libraries or frameworks that are well-suited to our project requirements?<br>
           * sdadfsdfsd
+          * chi-square
