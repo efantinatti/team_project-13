@@ -94,3 +94,79 @@ Work periods will also be used as opportunities for teams to collaborate and wor
 * README: This file!
 * .gitignore: Files to exclude from this folder, specified by the Technical Facilitator
 
+<br>
+
+# Team 13 Work
+
+## Team members
+* Angel
+* Alison Wu
+* Ernani Fantinatti
+* Fredy Rincón
+* James Li
+
+## Roles
+
+## Diagram
+![Main Diagram](data/Team-13/Images/Diagram_01.jpg?raw=true "Diagram 01")
+
+## Team 13 - Rules of Engagement
+* Be open and transparent in your communication to ensure everyone shares information.
+  * [X] Acknowledged - Angel
+  * [ ] Acknowledged - Alison Wu
+  * [X] Acknowledged - Ernani Fantinatti
+  * [ ] Acknowledged - Fredy Rincón
+  * [ ] Acknowledged - James Li
+* Clearly define each team member's role to avoid confusion and ensure everyone is accountable.
+  * [X] Acknowledged - Angel
+  * [ ] Acknowledged - Alison Wu
+  * [X] Acknowledged - Ernani Fantinatti
+  * [ ] Acknowledged - Fredy Rincón
+  * [ ] Acknowledged - James Li
+* Encourage all team members to participate and respect different perspectives.
+  * [X] Acknowledged - Angel
+  * [ ] Acknowledged - Alison Wu
+  * [X] Acknowledged - Ernani Fantinatti
+  * [ ] Acknowledged - Fredy Rincón
+  * [ ] Acknowledged - James Li
+* Address disagreements promptly and positively manage them.
+  * [X] Acknowledged - Angel
+  * [ ] Acknowledged - Alison Wu
+  * [X] Acknowledged - Ernani Fantinatti
+  * [ ] Acknowledged - Fredy Rincón
+  * [ ] Acknowledged - James Li
+* Prioritize essential issues, stay focused, and make good use of time during meetings and collaborations.
+  * [X] Acknowledged - Angel
+  * [ ] Acknowledged - Alison Wu
+  * [X] Acknowledged - Ernani Fantinatti
+  * [ ] Acknowledged - Fredy Rincón
+  * [ ] Acknowledged - James Li
+
+## Answering questions:
+* What is the primary focus within the dataset?<br>
+    * This dataset gives a detailed look at customer behavior on an e-commerce platform. Each record represents a unique customer, showing their interactions and transactions. The information helps analyze customer preferences, engagement, and satisfaction. Businesses can use this data to make informed decisions to improve the customer experience.<br>
+* What are potential relationships in the data that you could explore?<br>
+    * 1- Customer rates against Membership types.<br>
+    * 2- Analysis on Cities and Average income.<br>
+    * 3- Purchase habits per Average Rating<br>
+    * 4- <br>
+* What are key questions your project could answer?<br>
+    * How sensitive is each gender to customer satisfaction in relation to discounts being applied while purchasing?<br>
+    * Which age group spends the most money on the platform?<br>
+    * Do customers with a Gold membership buy more items than those with Silver or Bronze memberships?<br>
+    * Are customers who receive discounts more satisfied than those who do not?<br>
+
+## Questions to discuss when reviewing your dataset:
+
+* What are the key variables and attributes in your dataset?<br>
+  * sdadfsdfsd
+* How can we explore the relationships between different variables?<br>
+      * sdadfsdfsd
+* Are there any patterns or trends in the data that we can identify?<br>
+      * sdadfsdfsd
+* Who is the intended audience for our data analysis?<br>
+      * sdadfsdfsd
+* What is the question our analysis is trying to answer?<br>
+      * sdadfsdfsd
+* Are there any specific libraries or frameworks that are well-suited to our project requirements?<br>
+          * sdadfsdfsd
