@@ -113,31 +113,31 @@ Work periods will also be used as opportunities for teams to collaborate and wor
 ## Team 13 - Rules of Engagement
 * Be open and transparent in your communication to ensure everyone shares information.
   * [X] Acknowledged - Angel
-  * [ ] Acknowledged - Alison Wu
+  * [x] Acknowledged - Alison Wu
   * [X] Acknowledged - Ernani Fantinatti
   * [ ] Acknowledged - Fredy Rincón
   * [x] Acknowledged - James Li
 * Clearly define each team member's role to avoid confusion and ensure everyone is accountable.
   * [X] Acknowledged - Angel
-  * [ ] Acknowledged - Alison Wu
+  * [x] Acknowledged - Alison Wu
   * [X] Acknowledged - Ernani Fantinatti
   * [ ] Acknowledged - Fredy Rincón
   * [x] Acknowledged - James Li
 * Encourage all team members to participate and respect different perspectives.
   * [X] Acknowledged - Angel
-  * [ ] Acknowledged - Alison Wu
+  * [x] Acknowledged - Alison Wu
   * [X] Acknowledged - Ernani Fantinatti
   * [ ] Acknowledged - Fredy Rincón
   * [x] Acknowledged - James Li
 * Address disagreements promptly and positively manage them.
   * [X] Acknowledged - Angel
-  * [ ] Acknowledged - Alison Wu
+  * [x] Acknowledged - Alison Wu
   * [X] Acknowledged - Ernani Fantinatti
   * [ ] Acknowledged - Fredy Rincón
   * [x] Acknowledged - James Li
 * Prioritize essential issues, stay focused, and make good use of time during meetings and collaborations.
   * [X] Acknowledged - Angel
-  * [ ] Acknowledged - Alison Wu
+  * [x] Acknowledged - Alison Wu
   * [X] Acknowledged - Ernani Fantinatti
   * [ ] Acknowledged - Fredy Rincón
   * [x] Acknowledged - James Li
