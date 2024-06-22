@@ -258,4 +258,4 @@ This diagram provides a detailed overview of an E-commerce Customer Behavior Dat
  [Alison](https://paste_your_link_here "Alison's video")<br>
  [Ernani](https://fantinatti.com "Ernani Fantinatti's video")<br>
  [Fredy](https://paste_your_link_here "Fredy's video")<br>
- [James](https://paste_your_link_here "James's video")<br>
+ [James](https://paste_your_link_here "James's video")<br>.
