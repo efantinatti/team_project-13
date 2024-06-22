@@ -122,6 +122,41 @@ Work periods will also be used as opportunities for teams to collaborate and wor
 
 ![Main Diagram](data/Team-13/Images/Diagram_01.jpg?raw=true "Diagram 01")
 
+This diagram provides a detailed overview of an E-commerce Customer Behavior Dataset project workflow. Here’s a step-by-step explanation of each component:
+
+1. Team Members:
+  -	The project team consists of five members:
+    - Angel Yang
+    - Alison Wu
+    - Ernani Fantinatti
+    - Fredy Rincón
+    - James Li
+
+2. Data Source:
+  - The dataset, "E-commerce Customer Behavior - Sheet1.csv," is sourced from Kaggle, a well-known platform for data science competitions and datasets.
+
+3. Local Database:
+  - The dataset is ingested into a local SQLite database. The main table created from the CSV has 11 columns and 350 rows.
+  - The DB Browser tool is used to visualize and manage the SQLite database.
+
+4. Database Schema:
+  - The database contains several tables, such as:
+     - E_Comm_Customer_Behavior
+
+  - Manually added tables to improve our dataset:
+     - Generations
+     - ecommerce_sales
+     - income_by_city
+     - kaggle_income
+
+5. Version Control and Collaboration:
+  - GitHub is used for version control and team collaboration.
+  - The team's interactions and code contributions are managed through individual branches for each team member (AYang, AlisonWu, EFantinatti, FredyRincon, JamesLi).
+  - These individual branches are merged into the main project branch `team-project-1`.
+
+6. Final Delivery:
+   - The `team-project-1` branch is eventually merged into the `main` branch for the final delivery of the project 1
+
 ## Team 13 - Rules of Engagement
 
 * Be open and transparent in your communication to ensure everyone shares information.
