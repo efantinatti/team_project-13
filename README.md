@@ -124,36 +124,36 @@ Work periods will also be used as opportunities for teams to collaborate and wor
 
 ## Team 13 - Rules of Engagement
 
-- Be open and transparent in your communication to ensure everyone shares information.
-  - [x] Acknowledged - Angel
-  - [x] Acknowledged - Alison Wu
-  - [x] Acknowledged - Ernani Fantinatti
-  - [x] Acknowledged - Fredy Rincón
-  - [x] Acknowledged - James Li
-- Clearly define each team member's role to avoid confusion and ensure everyone is accountable.
-  - [x] Acknowledged - Angel
-  - [x] Acknowledged - Alison Wu
-  - [x] Acknowledged - Ernani Fantinatti
-  - [x] Acknowledged - Fredy Rincón
-  - [x] Acknowledged - James Li
-- Encourage all team members to participate and respect different perspectives.
-  - [x] Acknowledged - Angel
-  - [x] Acknowledged - Alison Wu
-  - [x] Acknowledged - Ernani Fantinatti
-  - [x] Acknowledged - Fredy Rincón
-  - [x] Acknowledged - James Li
-- Address disagreements promptly and positively manage them.
-  - [x] Acknowledged - Angel
-  - [x] Acknowledged - Alison Wu
-  - [x] Acknowledged - Ernani Fantinatti
-  - [x] Acknowledged - Fredy Rincón
-  - [x] Acknowledged - James Li
-- Prioritize essential issues, stay focused, and make good use of time during meetings and collaborations.
-  - [x] Acknowledged - Angel
-  - [x] Acknowledged - Alison Wu
-  - [x] Acknowledged - Ernani Fantinatti
-  - [x] Acknowledged - Fredy Rincón
-  - [x] Acknowledged - James Li
+* Be open and transparent in your communication to ensure everyone shares information.
+  * [X] Acknowledged - Angel
+  * [x] Acknowledged - Alison Wu
+  * [X] Acknowledged - Ernani Fantinatti
+  * [X] Acknowledged - Fredy Rincón
+  * [x] Acknowledged - James Li
+* Clearly define each team member's role to avoid confusion and ensure everyone is accountable.
+  * [X] Acknowledged - Angel
+  * [x] Acknowledged - Alison Wu
+  * [X] Acknowledged - Ernani Fantinatti
+  * [X] Acknowledged - Fredy Rincón
+  * [x] Acknowledged - James Li
+* Encourage all team members to participate and respect different perspectives.
+  * [X] Acknowledged - Angel
+  * [x] Acknowledged - Alison Wu
+  * [X] Acknowledged - Ernani Fantinatti
+  * [X] Acknowledged - Fredy Rincón
+  * [x] Acknowledged - James Li
+* Address disagreements promptly and positively manage them.
+  * [X] Acknowledged - Angel
+  * [x] Acknowledged - Alison Wu
+  * [X] Acknowledged - Ernani Fantinatti
+  * [X] Acknowledged - Fredy Rincón
+  * [x] Acknowledged - James Li
+* Prioritize essential issues, stay focused, and make good use of time during meetings and collaborations.
+  * [X] Acknowledged - Angel
+  * [x] Acknowledged - Alison Wu
+  * [X] Acknowledged - Ernani Fantinatti
+  * [X] Acknowledged - Fredy Rincón
+  * [x] Acknowledged - James Li
 
 ## Answering questions:
 
@@ -172,25 +172,25 @@ Work periods will also be used as opportunities for teams to collaborate and wor
 
 ## Questions to discuss when reviewing your dataset:
 
-- What are the key variables and attributes in your dataset?<br>
-
-
-
-- How can we explore the relationships between different variables?<br> 
-
-  - Using data visualizations such as boxplots and histograms to compare distributions, and statistical tests like ANOVA to identify significant differences. Regression models help quantify relationships between variables.
-
-- Are there any patterns or trends in the data that we can identify?<br>
-
-  - Customers with Gold and Silver memberships tend to purchase slightly more items than Bronze members.
-  - Higher total spend is strongly associated with purchasing more items.
-
-- Who is the intended audience for our data analysis?
-
-  - Marketing teams, business analysts, and decision-makers interested in understanding customer purchasing behavior and improving membership benefits.
-
-
-- What is the question our analysis is trying to answer?<br>
+* What are the key variables and attributes in your dataset?<br>
+  * sdadfsdfsd
+  * Genger, Discount Applied and Satisfaction Level
+* How can we explore the relationships between different variables?<br>
+      * Using data visualizations such as boxplots and histograms to compare distributions, and statistical tests like ANOVA to identify significant differences. Regression models help quantify relationships between variables.
+      * Using chi-square method
+* Are there any patterns or trends in the data that we can identify?<br>
+      * Customers with Gold and Silver memberships tend to purchase slightly more items than Bronze members.
+      * Higher total spend is strongly associated with purchasing more items.
+      * yes, for males, discounts seem to cause dissatisfaction, while for females, the response to discounts is mixed and might depend on other factors not captured in this dataset.
+* Who is the intended audience for our data analysis?<br>
+      * Marketing teams, business analysts, and decision-makers interested in understanding customer purchasing behavior and improving membership benefits.
+      * Marketing department
+* What is the question our analysis is trying to answer?<br>
+      * sdadfsdfsd
+      * The difference in sensitivity of genders reaction of discounts being applied or not
+* Are there any specific libraries or frameworks that are well-suited to our project requirements?<br>
+          * sdadfsdfsd
+          * chi-square
 
 **NOTE FOR CLASSMATES FROM FREDY:** Should we list all questions we all worked here?
 - Do customers with a Gold membership buy more items than those with Silver or Bronze memberships?
@@ -199,3 +199,4 @@ Work periods will also be used as opportunities for teams to collaborate and wor
 - 
 - Pandas and NumPy for data manipulation, Matplotlib and Seaborn for visualization, and scikit-learn for statistical modeling and regression analysis are well-suited for our project.
 <br> 
+
