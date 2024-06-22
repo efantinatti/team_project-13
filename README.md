@@ -148,6 +148,79 @@ This diagram provides a detailed overview of an E-commerce Customer Behavior Dat
 # ERD
 ![ERD](data/Images/Team13%20Project%201%20ERD.png?raw=true "ERD")
 
+### Description:
+Details of each component:
+
+### Entities
+1. **Customer**
+   - **Attributes:**
+     - CustomerID (Primary Key)
+     - Name
+     - Email
+     - Phone
+     - Address
+   - **Description:**
+     - Represents the customers using the system.
+
+2. **Order**
+   - **Attributes:**
+     - OrderID (Primary Key)
+     - OrderDate
+     - TotalAmount
+     - CustomerID (Foreign Key)
+   - **Description:**
+     - Represents the orders placed by customers. Each order is linked to a specific customer through CustomerID.
+
+3. **Product**
+   - **Attributes:**
+     - ProductID (Primary Key)
+     - Name
+     - Description
+     - Price
+     - Stock
+   - **Description:**
+     - Represents the products available in the system.
+
+4. **OrderDetail**
+   - **Attributes:**
+     - OrderDetailID (Primary Key)
+     - OrderID (Foreign Key)
+     - ProductID (Foreign Key)
+     - Quantity
+     - Price
+   - **Description:**
+     - Represents the details of each product within an order. Links to both Order and Product entities.
+
+### Relationships
+1. **Customer to Order**
+   - **Type:** One-to-Many
+   - **Description:** One customer can place multiple orders. This relationship is represented by CustomerID being a foreign key in the Order entity.
+
+2. **Order to OrderDetail**
+   - **Type:** One-to-Many
+   - **Description:** One order can have multiple order details. This relationship is represented by OrderID being a foreign key in the OrderDetail entity.
+
+3. **Product to OrderDetail**
+   - **Type:** One-to-Many
+   - **Description:** One product can appear in multiple order details. This relationship is represented by ProductID being a foreign key in the OrderDetail entity.
+
+### Diagram Flow
+1. **Customer Entity:**
+   - Contains attributes related to customer information such as CustomerID, Name, Email, Phone, and Address.
+   - Is related to the Order entity, indicating that customers can place orders.
+
+2. **Order Entity:**
+   - Contains attributes like OrderID, OrderDate, TotalAmount, and a foreign key CustomerID.
+   - Is related to the OrderDetail entity, showing that an order consists of multiple order details.
+   
+3. **Product Entity:**
+   - Contains attributes such as ProductID, Name, Description, Price, and Stock.
+   - Is related to the OrderDetail entity, indicating that products can be part of multiple order details.
+
+4. **OrderDetail Entity:**
+   - Contains attributes like OrderDetailID, OrderID, ProductID, Quantity, and Price.
+   - Links the Order and Product entities, showing which products are included in which orders.
+
 
 ## Team 13 - Rules of Engagement
 * Be open and transparent in your communication to ensure everyone shares information.
@@ -198,14 +271,46 @@ This diagram provides a detailed overview of an E-commerce Customer Behavior Dat
 ## Questions to discuss when reviewing your dataset:
 
 * What are the key variables and attributes in your dataset?<br>
-  * sdadfsdfsd
+  * Alison Wu:<br>
+  * Angel Yang:<br>
+  * Ernani Fantinatti: Age, Membership Type, Items Purchased, Average Rating, Generation, Satisfaction Level.<br>
+  * Fredy Rincón:<br>
+  * James Li:<br>
 * How can we explore the relationships between different variables?<br>
-      * sdadfsdfsd
+  * Alison Wu:<br>
+  * Angel Yang:<br>
+  * Ernani Fantinatti: Yes, specially between Age, Membership Type and Satisfaction Level.<br>
+  * Fredy Rincón:<br>
+  * James Li:<br>
 * Are there any patterns or trends in the data that we can identify?<br>
-      * sdadfsdfsd
+  * Alison Wu:<br>
+  * Angel Yang:<br>
+  * Ernani Fantinatti: Yes, Higher prices grows with age.<br>
+  * Fredy Rincón:<br>
+  * James Li:<br>
 * Who is the intended audience for our data analysis?<br>
-      * sdadfsdfsd
+  * Alison Wu:<br>
+  * Angel Yang:<br>
+  * Ernani Fantinatti: Companies interested in understanding the consumer market in general for Age group, generations and cities.<br>
+  * Fredy Rincón:<br>
+  * James Li:<br>
 * What is the question our analysis is trying to answer?<br>
-      * sdadfsdfsd
+  * Alison Wu:<br>
+  * Angel Yang:<br>
+  * Ernani Fantinatti: What age group are intending to spend more.<br>
+  * Fredy Rincón:<br>
+  * James Li:<br>
 * Are there any specific libraries or frameworks that are well-suited to our project requirements?<br>
-          * sdadfsdfsd
+  * Alison Wu:<br>
+  * Angel Yang:<br>
+  * Ernani Fantinatti: Pandas, matplotlib. SM Model Spec, one-hot-encoding, SQLite3.<br>
+  * Fredy Rincón:<br>
+  * James Li:<br>
+
+  # Videos:
+  
+  * [Alison Wu](https://paste_your_link "Alison Wu's video")
+  * [Angel Yang](https://paste_your_link "Angel Yang's video")
+  * [Ernani Fantinatti](https://fantinatti.com "Ernani Fantinatti's video")
+  * [Fredy Rincón](https://paste_your_link "Fredy Rincón's video")
+  * [James Li](https://paste_your_link "James Li's video")
