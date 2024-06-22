@@ -210,38 +210,38 @@ This diagram provides a detailed overview of an E-commerce Customer Behavior Dat
 * What are the key variables and attributes in your dataset?<br>
       * Angel:<br>
       * Alison:<br>
-      * Ernani:<br>
+      * Ernani: Age, Gender and 'Total Spent'<br>
       * Fredy:<br>
       * James: Genger, Discount Applied and Satisfaction Level <br>
 * How can we explore the relationships between different variables?<br>
       * Using data visualizations such as boxplots and histograms to compare distributions, and statistical tests like ANOVA to identify significant differences. Regression models help quantify relationships between variables.
       * Angel:<br>
       * Alison:<br>
-      * Ernani:<br>
+      * Ernani: Yes, we can explore other variables distributions and correlation with between them to infer patterns and trends.<br>
       * Fredy: <br>
       * James: Using chi-square method<br>
 * Are there any patterns or trends in the data that we can identify?<br>
       * Angel:<br>
       * Alison:<br>
-      * Ernani:<br>
+      * Ernani: Yes, high values spent are more likely to older people.<br>
       * Fredy: Customers with Gold and Silver memberships tend to purchase slightly more items than Bronze members.Also, higher total spend is strongly associated with purchasing more items.<br>
       * James: yes, for males, discounts seem to cause dissatisfaction, while for females, the response to discounts is mixed and might depend on other factors not captured in this dataset.<br>
 * Who is the intended audience for our data analysis?<br>
       * Angel:<br>
       * Alison:<br>
-      * Ernani:<br>
+      * Ernani: Based on the chosen dataset, the audience is companies that wants to work on overall case study for membership status.<br>
       * Fredy: Marketing teams, business analysts, and decision-makers interested in understanding customer purchasing behavior and improving membership benefits.<br>
       * James: Marketing department<br>
 * What is the question our analysis is trying to answer?<br>
       * Angel:<br>
       * Alison:<br>
-      * Ernani:<br>
+      * Ernani: Spoting the high spending customers based on their age and relationship of aging and spend.<br>
       * Fredy: <br>
       * James: The difference in sensitivity of genders reaction of discounts being applied or not<br>
 * Are there any specific libraries or frameworks that are well-suited to our project requirements?<br>
       * Angel:<br>
       * Alison:<br>
-      * Ernani:<br>
+      * Ernani: One-Hot-Encoder to work on categorical variables (membership status), SQLite3 to read from a SQL database, Pandas to ingest the data from SQL to dataframe and further data manipulation, statsmodels.api and ModelsSpec to work on a Logistic Regression.<br>
       * Fredy:<br>
       * James: chi-square<br>
 
