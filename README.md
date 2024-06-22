@@ -176,6 +176,7 @@ Work periods will also be used as opportunities for teams to collaborate and wor
   * sdadfsdfsd
   * Genger, Discount Applied and Satisfaction Level
 * How can we explore the relationships between different variables?<br>
+
       * Using data visualizations such as boxplots and histograms to compare distributions, and statistical tests like ANOVA to identify significant differences. Regression models help quantify relationships between variables.
       * Using chi-square method
 * Are there any patterns or trends in the data that we can identify?<br>
@@ -199,4 +200,3 @@ Work periods will also be used as opportunities for teams to collaborate and wor
 - 
 - Pandas and NumPy for data manipulation, Matplotlib and Seaborn for visualization, and scikit-learn for statistical modeling and regression analysis are well-suited for our project.
 <br> 
-
