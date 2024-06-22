@@ -271,14 +271,38 @@ Details of each component:
 ## Questions to discuss when reviewing your dataset:
 
 * What are the key variables and attributes in your dataset?<br>
-  * sdadfsdfsd
+  * Alison Wu:<br>
+  * Angel Yang:<br>
+  * Ernani Fantinatti: Age, Membership Type, Items Purchased, Average Rating, Generation, Satisfaction Level.<br>
+  * Fredy Rincón:<br>
+  * James Li:<br>
 * How can we explore the relationships between different variables?<br>
-      * sdadfsdfsd
+  * Alison Wu:<br>
+  * Angel Yang:<br>
+  * Ernani Fantinatti: Yes, specially between Age, Membership Type and Satisfaction Level.<br>
+  * Fredy Rincón:<br>
+  * James Li:<br>
 * Are there any patterns or trends in the data that we can identify?<br>
-      * sdadfsdfsd
+  * Alison Wu:<br>
+  * Angel Yang:<br>
+  * Ernani Fantinatti: Yes, Higher prices grows with age.<br>
+  * Fredy Rincón:<br>
+  * James Li:<br>
 * Who is the intended audience for our data analysis?<br>
-      * sdadfsdfsd
+  * Alison Wu:<br>
+  * Angel Yang:<br>
+  * Ernani Fantinatti: Companies interested in understanding the consumer market in general for Age group, generations and cities.<br>
+  * Fredy Rincón:<br>
+  * James Li:<br>
 * What is the question our analysis is trying to answer?<br>
-      * sdadfsdfsd
+  * Alison Wu:<br>
+  * Angel Yang:<br>
+  * Ernani Fantinatti: What age group are intending to spend more.<br>
+  * Fredy Rincón:<br>
+  * James Li:<br>
 * Are there any specific libraries or frameworks that are well-suited to our project requirements?<br>
-          * sdadfsdfsd
+  * Alison Wu:<br>
+  * Angel Yang:<br>
+  * Ernani Fantinatti: Pandas, matplotlib. SM Model Spec, one-hot-encoding, SQLite3.<br>
+  * Fredy Rincón:<br>
+  * James Li:<br>
