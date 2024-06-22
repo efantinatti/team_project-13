@@ -208,25 +208,42 @@ This diagram provides a detailed overview of an E-commerce Customer Behavior Dat
 ## Questions to discuss when reviewing your dataset:
 
 * What are the key variables and attributes in your dataset?<br>
-  * sdadfsdfsd
-  * Genger, Discount Applied and Satisfaction Level
+      * Angel:<br>
+      * Alison:<br>
+      * Ernani:<br>
+      * Fredy:<br>
+      * James: Genger, Discount Applied and Satisfaction Level <br>
 * How can we explore the relationships between different variables?<br>
-
       * Using data visualizations such as boxplots and histograms to compare distributions, and statistical tests like ANOVA to identify significant differences. Regression models help quantify relationships between variables.
-      * Using chi-square method
+      * Angel:<br>
+      * Alison:<br>
+      * Ernani:<br>
+      * Fredy: <br>
+      * James: Using chi-square method<br>
 * Are there any patterns or trends in the data that we can identify?<br>
-      * Customers with Gold and Silver memberships tend to purchase slightly more items than Bronze members.
-      * Higher total spend is strongly associated with purchasing more items.
-      * yes, for males, discounts seem to cause dissatisfaction, while for females, the response to discounts is mixed and might depend on other factors not captured in this dataset.
+      * Angel:<br>
+      * Alison:<br>
+      * Ernani:<br>
+      * Fredy: Customers with Gold and Silver memberships tend to purchase slightly more items than Bronze members.Also, higher total spend is strongly associated with purchasing more items.<br>
+      * James: yes, for males, discounts seem to cause dissatisfaction, while for females, the response to discounts is mixed and might depend on other factors not captured in this dataset.<br>
 * Who is the intended audience for our data analysis?<br>
-      * Marketing teams, business analysts, and decision-makers interested in understanding customer purchasing behavior and improving membership benefits.
-      * Marketing department
+      * Angel:<br>
+      * Alison:<br>
+      * Ernani:<br>
+      * Fredy: Marketing teams, business analysts, and decision-makers interested in understanding customer purchasing behavior and improving membership benefits.<br>
+      * James: Marketing department<br>
 * What is the question our analysis is trying to answer?<br>
-      * sdadfsdfsd
-      * The difference in sensitivity of genders reaction of discounts being applied or not
+      * Angel:<br>
+      * Alison:<br>
+      * Ernani:<br>
+      * Fredy: <br>
+      * James: The difference in sensitivity of genders reaction of discounts being applied or not<br>
 * Are there any specific libraries or frameworks that are well-suited to our project requirements?<br>
-          * sdadfsdfsd
-          * chi-square
+      * Angel:<br>
+      * Alison:<br>
+      * Ernani:<br>
+      * Fredy:<br>
+      * James: chi-square<br>
 
 **NOTE FOR CLASSMATES FROM FREDY:** Should we list all questions we all worked here?
 - Do customers with a Gold membership buy more items than those with Silver or Bronze memberships?
@@ -235,3 +252,10 @@ This diagram provides a detailed overview of an E-commerce Customer Behavior Dat
 - 
 - Pandas and NumPy for data manipulation, Matplotlib and Seaborn for visualization, and scikit-learn for statistical modeling and regression analysis are well-suited for our project.
 <br> 
+
+## Video Links
+ [Angel](https://paste_your_link_here "Angel's video")<br>
+ [Alison](https://paste_your_link_here "Alison's video")<br>
+ [Ernani](https://fantinatti.com "Ernani Fantinatti's video")<br>
+ [Fredy](https://paste_your_link_here "Fredy's video")<br>
+ [James](https://paste_your_link_here "James's video")<br>
