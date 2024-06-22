@@ -306,3 +306,11 @@ Details of each component:
   * Ernani Fantinatti: Pandas, matplotlib. SM Model Spec, one-hot-encoding, SQLite3.<br>
   * Fredy Rincón:<br>
   * James Li:<br>
+
+  # Videos:
+  
+  * [Alison Wu](https://paste_your_link "Alison Wu's video")
+  * [Angel Yang](https://paste_your_link "Angel Yang's video")
+  * [Ernani Fantinatti](https://fantinatti.com "Ernani Fantinatti's video")
+  * [Fredy Rincón](https://paste_your_link "Fredy Rincón's video")
+  * [James Li](https://paste_your_link "James Li's video")
