@@ -148,6 +148,79 @@ This diagram provides a detailed overview of an E-commerce Customer Behavior Dat
 # ERD
 ![ERD](data/Images/Team13%20Project%201%20ERD.png?raw=true "ERD")
 
+### Description:
+Details of each component:
+
+### Entities
+1. **Customer**
+   - **Attributes:**
+     - CustomerID (Primary Key)
+     - Name
+     - Email
+     - Phone
+     - Address
+   - **Description:**
+     - Represents the customers using the system.
+
+2. **Order**
+   - **Attributes:**
+     - OrderID (Primary Key)
+     - OrderDate
+     - TotalAmount
+     - CustomerID (Foreign Key)
+   - **Description:**
+     - Represents the orders placed by customers. Each order is linked to a specific customer through CustomerID.
+
+3. **Product**
+   - **Attributes:**
+     - ProductID (Primary Key)
+     - Name
+     - Description
+     - Price
+     - Stock
+   - **Description:**
+     - Represents the products available in the system.
+
+4. **OrderDetail**
+   - **Attributes:**
+     - OrderDetailID (Primary Key)
+     - OrderID (Foreign Key)
+     - ProductID (Foreign Key)
+     - Quantity
+     - Price
+   - **Description:**
+     - Represents the details of each product within an order. Links to both Order and Product entities.
+
+### Relationships
+1. **Customer to Order**
+   - **Type:** One-to-Many
+   - **Description:** One customer can place multiple orders. This relationship is represented by CustomerID being a foreign key in the Order entity.
+
+2. **Order to OrderDetail**
+   - **Type:** One-to-Many
+   - **Description:** One order can have multiple order details. This relationship is represented by OrderID being a foreign key in the OrderDetail entity.
+
+3. **Product to OrderDetail**
+   - **Type:** One-to-Many
+   - **Description:** One product can appear in multiple order details. This relationship is represented by ProductID being a foreign key in the OrderDetail entity.
+
+### Diagram Flow
+1. **Customer Entity:**
+   - Contains attributes related to customer information such as CustomerID, Name, Email, Phone, and Address.
+   - Is related to the Order entity, indicating that customers can place orders.
+
+2. **Order Entity:**
+   - Contains attributes like OrderID, OrderDate, TotalAmount, and a foreign key CustomerID.
+   - Is related to the OrderDetail entity, showing that an order consists of multiple order details.
+   
+3. **Product Entity:**
+   - Contains attributes such as ProductID, Name, Description, Price, and Stock.
+   - Is related to the OrderDetail entity, indicating that products can be part of multiple order details.
+
+4. **OrderDetail Entity:**
+   - Contains attributes like OrderDetailID, OrderID, ProductID, Quantity, and Price.
+   - Links the Order and Product entities, showing which products are included in which orders.
+
 
 ## Team 13 - Rules of Engagement
 * Be open and transparent in your communication to ensure everyone shares information.
