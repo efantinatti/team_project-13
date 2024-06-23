@@ -307,6 +307,14 @@ Details of each component:
   * Fredy Rincón: Libraries like Pandas and NumPy for data manipulation, Matplotlib and Seaborn for visualization, and scikit-learn for statistical modeling and regression analysis are well-suited for our project.<br>
   * James Li: chi-square<br>
 
+## Tables description
+
+| Table | Description |
+|-------|-------------|
+| E_Comm_Customer_Behavior | Main table from the designated dataset. |
+| income_by_city | Income by city, extracted from Kaggle. |
+| Generations | Own created table with the generations by age bins. |
+
 ## Dataset Columns Description
 
 | Column | Description |
@@ -323,7 +331,8 @@ Details of each component:
 | Days Since Last Purchase| The number of days since the last purchase. |
 | Satisfaction Level| The satisfaction level of the customer. |
 
-  # Videos:
+
+## Videos:
   
   * [Alison Wu](https://paste_your_link "Alison Wu's video")
   * [Angel Yang](https://paste_your_link "Angel Yang's video")
