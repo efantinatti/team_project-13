@@ -299,13 +299,13 @@ Details of each component:
   * Angel Yang:<br>
   * Ernani Fantinatti: What age group are intending to spend more.<br>
   * Fredy Rincón:<br>
-  * James Li:<br>
+  * James Li: The difference in sensitivity of genders reaction of discounts being applied or not<br>
 * Are there any specific libraries or frameworks that are well-suited to our project requirements?<br>
   * Alison Wu:<br>
   * Angel Yang:<br>
   * Ernani Fantinatti: Pandas, matplotlib. SM Model Spec, one-hot-encoding, SQLite3.<br>
   * Fredy Rincón:<br>
-  * James Li:<br>
+  * James Li: chi-square<br>
 
   # Videos:
   
