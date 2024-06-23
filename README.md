@@ -263,7 +263,7 @@ Details of each component:
     * 3- `Membership Type` against `Items Purchased`. (See [Membership Level Purchase Analysis](./data/Code/Membership_Level_Purchase_Analysis.ipynb "Membership Level Purchase Analysis") for details)<br>
 * What are key questions your project could answer?<br>
     * How sensitive is each gender to customer satisfaction in relation to discounts being applied while purchasing?<br>
-    * Which age group spends the most money on the platform?<br>
+    * Are age and gender variables statistically significant predictor of a high value customer?<br>
     * Do customers with a Gold membership buy more items than those with Silver or Bronze memberships?<br>
     * Are customers who receive discounts more satisfied than those who do not?<br>
     * Do customers with a Gold membership buy more items than those with Silver or Bronze memberships? (See [Membership Level Purchase Analysis](./data/Code/Membership_Level_Purchase_Analysis.ipynb "Membership Level Purchase Analysis") for details)<br>
@@ -272,37 +272,37 @@ Details of each component:
 
 * What are the key variables and attributes in your dataset?<br>
   * Alison Wu:<br>
-  * Angel Yang:<br>
+  * Angel Yang:<br> : Gender, Total Spend
   * Ernani Fantinatti: Age, Membership Type, Items Purchased, Average Rating, Generation, Satisfaction Level.<br>
   * Fredy Rincón: Membership Type, Items Purchased and Total Spend
   * James Li: Gender, Discount Applied and Satisfaction Level<br>
 * How can we explore the relationships between different variables?<br>
   * Alison Wu:<br>
-  * Angel Yang:<br>
+  * Angel Yang:<br>: we can use python to create correlation plot, or run codes utilizing pandas data package
   * Ernani Fantinatti: Yes, specially between Age, Membership Type and Satisfaction Level.<br>
   * Fredy Rincón: We can use visualizations like boxplots and histograms to compare distributions, and statistical tests like ANOVA to identify significant differences. Regression models help quantify relationships between variables.<br>
   * James Li: Using chi-square method<br>
 * Are there any patterns or trends in the data that we can identify?<br>
   * Alison Wu:<br>
-  * Angel Yang:<br>
+  * Angel Yang:<br>: overall, male customers spent more than female customer.
   * Ernani Fantinatti: Yes, Higher prices grows with age.<br>
   * Fredy Rincón: Customers with Gold and Silver memberships tend to purchase slightly more items than Bronze members.Also, higher total spend is strongly associated with purchasing more items.<br>
   * James Li: Yes, for males, discounts seem to cause dissatisfaction, while for females, the response to discounts is mixed and might depend on other factors not captured in this dataset.<br>
 * Who is the intended audience for our data analysis?<br>
   * Alison Wu:<br>
-  * Angel Yang:<br>
+  * Angel Yang:<br>: marketing team of the ecommerce company 
   * Ernani Fantinatti: Companies interested in understanding the consumer market in general for Age group, generations and cities.<br>
   * Fredy Rincón: The intended audience includes marketing teams, business analysts, and decision-makers interested in understanding customer purchasing behavior and improving membership benefits.<br>
   * James Li: Marketing department<br>
 * What is the question our analysis is trying to answer?<br>
   * Alison Wu:<br>
-  * Angel Yang:<br>
+  * Angel Yang:<br>: which demographic variables can be used as predictor of a high value customer 
   * Ernani Fantinatti: What age group are intending to spend more.<br>
   * Fredy Rincón: Do customers with a Gold membership buy more items than those with Silver or Bronze memberships?<br>
   * James Li: The difference in sensitivity of genders reaction of discounts being applied or not<br>
 * Are there any specific libraries or frameworks that are well-suited to our project requirements?<br>
   * Alison Wu:<br>
-  * Angel Yang:<br>
+  * Angel Yang:<br> sklearn, pandas, matplotlib
   * Ernani Fantinatti: Pandas, matplotlib. SM Model Spec, one-hot-encoding, SQLite3.<br>
   * Fredy Rincón: Libraries like Pandas and NumPy for data manipulation, Matplotlib and Seaborn for visualization, and scikit-learn for statistical modeling and regression analysis are well-suited for our project.<br>
   * James Li: chi-square<br>
@@ -335,7 +335,8 @@ Details of each component:
 ## Videos:
   
   * [Alison Wu](https://drive.google.com/file/d/1btCx-uwzS__iKeo2kWDYgQZLzcKVpWfj/view?usp=share_link "Alison Wu's video")
-  * [Angel Yang](https://paste_your_link "Angel Yang's video")
+  * [Angel Yang](https://drive.google.com/file/d/1gMsrpWer4GmODwNPpfQICXMVi5FwGf0g/view?usp=drivesdk
+  "Angel Yang's video")
   * [Ernani Fantinatti](https://youtu.be/8zqygKOwHVw "Ernani Fantinatti's video")
   * [Fredy Rincón](https://youtu.be/6n_e4El12xc?si=H-thyjlrLHvv2gSj "Fredy Rincón's video")
   * [James Li](https://drive.google.com/file/d/1nue-OUbawdU11nv_m7tIR7Wf-6MGzI15/view?usp=sharing "James Li's video")
