@@ -258,15 +258,15 @@ Details of each component:
 * What is the primary focus within the dataset?<br>
     * This dataset gives a detailed look at customer behavior on an e-commerce platform. Each record represents a unique customer, showing their interactions and transactions. The information helps analyze customer preferences, engagement, and satisfaction. Businesses can use this data to make informed decisions to improve the customer experience.<br>
 * What are potential relationships in the data that you could explore?<br>
-    * 1- Customer rates against Membership types.<br>
-    * 2- Analysis on Cities and Average income.<br>
-    * 3- Purchase habits per Average Rating<br>
-    * 4- <br>
+    * 1- Analysis on Cities and Average income.<br>
+    * 2- Purchase habits per Average Rating<br>
+    * 3- `Membership Type` against `Items Purchased`. (See [Membership Level Purchase Analysis](./data/Code/Membership_Level_Purchase_Analysis.ipynb "Membership Level Purchase Analysis") for details)<br>
 * What are key questions your project could answer?<br>
     * How sensitive is each gender to customer satisfaction in relation to discounts being applied while purchasing?<br>
     * Which age group spends the most money on the platform?<br>
     * Do customers with a Gold membership buy more items than those with Silver or Bronze memberships?<br>
     * Are customers who receive discounts more satisfied than those who do not?<br>
+    * Do customers with a Gold membership buy more items than those with Silver or Bronze memberships? (See [Membership Level Purchase Analysis](./data/Code/Membership_Level_Purchase_Analysis.ipynb "Membership Level Purchase Analysis") for details)<br>
 
 ## Questions to discuss when reviewing your dataset:
 
@@ -274,38 +274,54 @@ Details of each component:
   * Alison Wu:<br>
   * Angel Yang:<br>
   * Ernani Fantinatti: Age, Membership Type, Items Purchased, Average Rating, Generation, Satisfaction Level.<br>
-  * Fredy Rincón:<br>
-  * James Li:<br>
+  * Fredy Rincón: Membership Type, Items Purchased and Total Spend
+  * James Li: <br>
 * How can we explore the relationships between different variables?<br>
   * Alison Wu:<br>
   * Angel Yang:<br>
   * Ernani Fantinatti: Yes, specially between Age, Membership Type and Satisfaction Level.<br>
-  * Fredy Rincón:<br>
+  * Fredy Rincón: We can use visualizations like boxplots and histograms to compare distributions, and statistical tests like ANOVA to identify significant differences. Regression models help quantify relationships between variables.<br>
   * James Li:<br>
 * Are there any patterns or trends in the data that we can identify?<br>
   * Alison Wu:<br>
   * Angel Yang:<br>
   * Ernani Fantinatti: Yes, Higher prices grows with age.<br>
-  * Fredy Rincón:<br>
+  * Fredy Rincón: Customers with Gold and Silver memberships tend to purchase slightly more items than Bronze members. Higher total spend is strongly associated with purchasing more items.<br>
   * James Li:<br>
 * Who is the intended audience for our data analysis?<br>
   * Alison Wu:<br>
   * Angel Yang:<br>
   * Ernani Fantinatti: Companies interested in understanding the consumer market in general for Age group, generations and cities.<br>
-  * Fredy Rincón:<br>
+  * Fredy Rincón: The intended audience includes marketing teams, business analysts, and decision-makers interested in understanding customer purchasing behavior and improving membership benefits.<br>
   * James Li:<br>
 * What is the question our analysis is trying to answer?<br>
   * Alison Wu:<br>
   * Angel Yang:<br>
   * Ernani Fantinatti: What age group are intending to spend more.<br>
-  * Fredy Rincón:<br>
+  * Fredy Rincón: Do customers with a Gold membership buy more items than those with Silver or Bronze memberships?<br>
   * James Li:<br>
 * Are there any specific libraries or frameworks that are well-suited to our project requirements?<br>
   * Alison Wu:<br>
   * Angel Yang:<br>
   * Ernani Fantinatti: Pandas, matplotlib. SM Model Spec, one-hot-encoding, SQLite3.<br>
-  * Fredy Rincón:<br>
+  * Fredy Rincón: Libraries like Pandas and NumPy for data manipulation, Matplotlib and Seaborn for visualization, and scikit-learn for statistical modeling and regression analysis are well-suited for our project.<br>
   * James Li:<br>
+
+## Dataset Columns Description
+
+| Column | Description |
+| ------- | ---------- |
+| Customer ID| A unique identifier for each customer. |
+| Gender| The gender of the customer. |
+| Age| The age of the customer. |
+| City| The city where the customer lives. |
+| Membership Type| The type of membership (Gold, Silver, Bronze). |
+| Total Spend| The total amount spent by the customer. |
+| Items Purchased| The number of items purchased by the customer. |
+| Average Rating| The average rating given by the customer. |
+| Discount Applied| Indicates whether a discount was applied. |
+| Days Since Last Purchase| The number of days since the last purchase. |
+| Satisfaction Level| The satisfaction level of the customer. |
 
   # Videos:
   
@@ -314,3 +330,4 @@ Details of each component:
   * [Ernani Fantinatti](https://fantinatti.com "Ernani Fantinatti's video")
   * [Fredy Rincón](https://paste_your_link "Fredy Rincón's video")
   * [James Li](https://paste_your_link "James Li's video")
+
