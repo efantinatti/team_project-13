@@ -286,14 +286,14 @@ Details of each component:
   * Alison Wu:<br>
   * Angel Yang:<br>
   * Ernani Fantinatti: Yes, Higher prices grows with age.<br>
-  * Fredy Rincón:Customers with Gold and Silver memberships tend to purchase slightly more items than Bronze members.Also, higher total spend is strongly associated with purchasing more items.<br>
+  * Fredy Rincón: Customers with Gold and Silver memberships tend to purchase slightly more items than Bronze members.Also, higher total spend is strongly associated with purchasing more items.<br>
   * James Li: Yes, for males, discounts seem to cause dissatisfaction, while for females, the response to discounts is mixed and might depend on other factors not captured in this dataset.<br>
 * Who is the intended audience for our data analysis?<br>
   * Alison Wu:<br>
   * Angel Yang:<br>
   * Ernani Fantinatti: Companies interested in understanding the consumer market in general for Age group, generations and cities.<br>
-  * Fredy Rincón:<br>
-  * James Li:<br>
+  * Fredy Rincón: Marketing teams, business analysts, and decision-makers interested in understanding customer purchasing behavior and improving membership benefits.<br>
+  * James Li: Marketing department<br>
 * What is the question our analysis is trying to answer?<br>
   * Alison Wu:<br>
   * Angel Yang:<br>
