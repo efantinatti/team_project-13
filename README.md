@@ -275,7 +275,7 @@ Details of each component:
   * Angel Yang:<br>
   * Ernani Fantinatti: Age, Membership Type, Items Purchased, Average Rating, Generation, Satisfaction Level.<br>
   * Fredy Rincón:<br>
-  * James Li:<br>
+  * James Li: Gender, Discount Applied and Satisfaction Level<br>
 * How can we explore the relationships between different variables?<br>
   * Alison Wu:<br>
   * Angel Yang:<br>
