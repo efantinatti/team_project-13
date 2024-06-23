@@ -337,5 +337,5 @@ Details of each component:
   * [Alison Wu](https://paste_your_link "Alison Wu's video")
   * [Angel Yang](https://paste_your_link "Angel Yang's video")
   * [Ernani Fantinatti](https://fantinatti.com "Ernani Fantinatti's video")
-  * [Fredy Rincón](https://paste_your_link "Fredy Rincón's video")
+  * [Fredy Rincón](https://youtu.be/6n_e4El12xc?si=H-thyjlrLHvv2gSj "Fredy Rincón's video")
   * [James Li](https://drive.google.com/file/d/1nue-OUbawdU11nv_m7tIR7Wf-6MGzI15/view?usp=sharing "James Li's video")
