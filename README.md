@@ -280,7 +280,7 @@ Details of each component:
   * Alison Wu:<br>
   * Angel Yang:<br>
   * Ernani Fantinatti: Yes, specially between Age, Membership Type and Satisfaction Level.<br>
-  * Fredy Rincón:<br>
+  * Fredy Rincón: Using data visualizations such as boxplots and histograms to compare distributions, and statistical tests like ANOVA to identify significant differences. Regression models help quantify relationships between variables.<br>
   * James Li:<br>
 * Are there any patterns or trends in the data that we can identify?<br>
   * Alison Wu:<br>
