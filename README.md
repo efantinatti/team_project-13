@@ -313,4 +313,4 @@ Details of each component:
   * [Angel Yang](https://paste_your_link "Angel Yang's video")
   * [Ernani Fantinatti](https://fantinatti.com "Ernani Fantinatti's video")
   * [Fredy Rincón](https://paste_your_link "Fredy Rincón's video")
-  * [James Li](https://paste_your_link "James Li's video")
+  * [James Li](https://drive.google.com/file/d/1nue-OUbawdU11nv_m7tIR7Wf-6MGzI15/view?usp=sharing "James Li's video")
