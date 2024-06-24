@@ -334,7 +334,7 @@ Details of each component:
 
 ## Videos:
   
-  * [Alison Wu](https://drive.google.com/file/d/1btCx-uwzS__iKeo2kWDYgQZLzcKVpWfj/view?usp=share_link "Alison Wu's video")
+  * [Alison Wu](https://drive.google.com/file/d/1SvlxO8eK2QBqxtPGW71PPRDMDFA2rZFg/view?usp=sharing "Alison Wu's video")
   * [Angel Yang](https://drive.google.com/file/d/1gMsrpWer4GmODwNPpfQICXMVi5FwGf0g/view?usp=drivesdk
   "Angel Yang's video")
   * [Ernani Fantinatti](https://youtu.be/8zqygKOwHVw "Ernani Fantinatti's video")
