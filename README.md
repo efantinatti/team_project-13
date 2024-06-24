@@ -94,9 +94,7 @@ Work periods will also be used as opportunities for teams to collaborate and wor
 * README: This file!
 * .gitignore: Files to exclude from this folder, specified by the Technical Facilitator
 
-<br>
-
-# Team 13 Work
+# Team 13, Project 1
 
 ## Team members
 * Angel
@@ -340,3 +338,4 @@ Details of each component:
   * [Ernani Fantinatti](https://youtu.be/8zqygKOwHVw "Ernani Fantinatti's video")
   * [Fredy Rincón](https://youtu.be/6n_e4El12xc?si=H-thyjlrLHvv2gSj "Fredy Rincón's video")
   * [James Li](https://drive.google.com/file/d/1nue-OUbawdU11nv_m7tIR7Wf-6MGzI15/view?usp=sharing "James Li's video")
+ 
