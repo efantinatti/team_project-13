@@ -10,6 +10,18 @@
 <BR>
 
 # BE S.M.A.R.T.
+**Specific:**
+- The objective is to enhance the Customer Behaviour Dataset by integrating synthetic age generations and average income per city. We will apply data augmentation techniques to prepare the dataset for deep learning (DL) model training and testing. The goal is to test and evaluate the DL model's performance in terms of accuracy, precision, and recall.
+**Measurable:**
+-       Success will be measured by achieving a minimum accuracy of 85%, precision of 80%, and recall of 75% on the test split of the dataset. Additionally, the project will involve documenting the complete process and tracking collaboration using a Git workflow, which will include at least two pull requests per team member and one final merged repository with all contributions.
+**Achievable:**
+-       Given the manageable size of the dataset (350 rows with 11 original features) and the team's expertise, this objective is realistic. The project will utilize existing tools and frameworks, and the team has the necessary skills to implement the required data augmentation, model evaluation, and Git workflow.
+**Relevant:**
+- This objective is aligned with the broader goal of improving the team's capability in handling real-world customer behavior data and deploying DL models effectively. The project also demonstrates teamwork and version control practices, which are critical for collaborative data science projects.
+**Time-bound:**
+- The project will be completed within 6 weeks. The first 2 weeks will be dedicated to dataset preparation and augmentation, followed by 3 weeks for model training, testing, and evaluation. The final week will be reserved for documentation, Git workflow validation, and final review.
+### Final S.M.A.R.T. Objective Statement:
+- "Within 6 weeks, we will enhance the Customer Behaviour Dataset by integrating synthetic data and augmenting it for deep learning. We will test and evaluate the deep learning model, aiming for at least 85% accuracy, 80% precision, and 75% recall. The entire process will be documented and tracked using a Git workflow to ensure collaborative success and version control adherence, culminating in a final merged repository."
 
 # Diagram
 
