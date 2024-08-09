@@ -51,13 +51,69 @@ The data visualizations will be added once they are generated.
 * Ensure data types are appropriate.
 * Encode categorical variables if necessary.
 
+  For this task we will use the `sqllite3` library to load the data from a SQLite3 database and `pandas` to ETL.
+
+  ```python
+  import sqlite3
+  import pandas as pd
+
+  # Connect to the SQLite database
+  conn = sqlite3.connect('../sql/Customer_Behavior.db')
+
+  # Define your SQL query
+  query = "SELECT * FROM E_Comm_Customer_Behavior"
+
+  # Use pandas to execute the query and read the data into a DataFrame
+  df = pd.read_sql_query(query, conn)
+
+  # Close the database connection
+  conn.close()
+  ```
+
 - ## Data Engineering explanation
 
-TBD? Translate categorical attributes into numerical values so the model can interpret the values correctly. For example, gender, city, membership type, satisfaction level and discount applied.
+  * Translate categorical attributes into numerical values so the model can interpret the values correctly. For example, gender, city, membership type, satisfaction level and discount applied.
 
+  ```python
+  import pandas as pd
+
+  # Mapping Gender
+  df['Gender'] = df['Gender'].map({'Male': 1, 'Female': 0})
+
+  # Mapping Discount Applied
+  df['Discount Applied'] = df['Discount Applied'].map({True: 1, False: 0})
+
+  # One-hot encoding for City, Membership Type, and Satisfaction Level
+  df = pd.get_dummies(df, columns=['City', 'Membership Type', 'Satisfaction Level'], drop_first=True)
+
+  # Display the transformed DataFrame
+  print(df.head())
+  ```
+  ![Workflow Diagram](data/Images/Data_Engineering_01.jpg "Figure 2 - Output.")
+  Figure 2 - Output.
 - ### Database expansion (more features)
 
-To expand the database, we are considering to merge the main database table with income information based on city. We might be linking the city's median income with the membership type its residents hold.
+  * To expand the database, we are considering to merge the main database table with income information based on city. We might be linking the city's median income with the membership type its residents hold.
+
+  ```python
+  import sqlite3
+  import pandas as pd
+
+  # Load the Income_by_City table
+  query_income = "SELECT * FROM Income_by_City"
+  df_income = pd.read_sql_query(query_income, conn)
+
+  # Close the database connection
+  conn.close()
+
+  # Merge the DataFrames on the City column
+  df_merged = pd.merge(df, df_income, on='City', how='left')
+
+  # Display the merged DataFrame
+  print(df_merged.head())
+  ```
+  ![Workflow Diagram](data/Images/Data_Engineering_02.jpg "Figure 3 - Output.")
+  Figure 3 - Output.
 
 - ### Database augmentation (add rows)
 
