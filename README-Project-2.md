@@ -75,8 +75,6 @@ The data visualizations will be added once they are generated.
   * Translate categorical attributes into numerical values so the model can interpret the values correctly. For example, gender, city, membership type, satisfaction level and discount applied.
 
   ```python
-  import pandas as pd
-
   # Mapping Gender
   df['Gender'] = df['Gender'].map({'Male': 1, 'Female': 0})
 
@@ -96,9 +94,6 @@ The data visualizations will be added once they are generated.
   * To expand the database, we are considering to merge the main database table with income information based on city. We might be linking the city's median income with the membership type its residents hold.
 
   ```python
-  import sqlite3
-  import pandas as pd
-
   # Load the Income_by_City table
   query_income = "SELECT * FROM Income_by_City"
   df_income = pd.read_sql_query(query_income, conn)
@@ -119,6 +114,20 @@ The data visualizations will be added once they are generated.
 
 Based on customer's age, we will also cross-reference the different generations (Gen X, Gen Z, Millenials, etc.) based on the decades the customers were born.
 
+```python
+  # Merge the DataFrames
+  df_augmented = pd.merge(df_merged, df_generations, on='Age', how='left')
+
+  # Display the augmented DataFrame
+  print(df_augmented.head())
+```
+
+* how='left': This ensures that all rows from the df_generations DataFrame are retained, even if there is no corresponding entry in the Income_by_City table.
+
+  ![Workflow Diagram](data/Images/Data_Engineering_03.jpg "Figure 4 - Output.")
+  Figure 4 - Output.
+
+
 - ## Feature Engineering
 
 # Results
@@ -129,6 +138,102 @@ Based on customer's age, we will also cross-reference the different generations 
     - ### Explain the concepts
 - ## Visuals output
 
+```python
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler, LabelEncoder
+from sklearn.neighbors import KNeighborsRegressor
+from sklearn.metrics import mean_squared_error, r2_score
+import tensorflow as tf
+
+# Encoding categorical variables
+le_generation = LabelEncoder()
+data['Generation'] = le_generation.fit_transform(data['Generation'])
+
+# Dropping 'Customer ID' as it is not a useful feature and separating the target variable
+target_column = 'median_income'
+X = data.drop(['Customer ID', target_column], axis=1)
+y = data[target_column]
+
+# Splitting the data into train and test sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Scaling the features
+scaler = StandardScaler()
+X_train_scaled = scaler.fit_transform(X_train)
+X_test_scaled = scaler.transform(X_test)
+
+# KNN Regression
+knn = KNeighborsRegressor(n_neighbors=3)  # Adjusted to n_neighbors=3
+knn.fit(X_train_scaled, y_train)
+y_pred_knn = knn.predict(X_test_scaled)
+
+# Evaluate KNN model
+knn_mse = mean_squared_error(y_test, y_pred_knn)
+knn_r2 = r2_score(y_test, y_pred_knn)
+
+print(f'KNN Mean Squared Error: {knn_mse}')
+print(f'KNN R^2 Score: {knn_r2}')
+
+# Deep Learning Model
+model = tf.keras.models.Sequential([
+    tf.keras.layers.Dense(128, activation='relu', input_shape=(X_train.shape[1],)),
+    tf.keras.layers.Dense(64, activation='relu'),
+    tf.keras.layers.Dense(1)  # Linear activation for regression
+])
+
+model.compile(optimizer='adam', loss='mean_squared_error', metrics=['mean_squared_error', 'mae'])
+history = model.fit(X_train_scaled, y_train, validation_split=0.2, epochs=30, batch_size=32)
+
+# Predicting with the deep learning model
+y_pred_dl = model.predict(X_test_scaled)
+
+# Evaluating the deep learning model
+dl_mse = mean_squared_error(y_test, y_pred_dl)
+dl_r2 = r2_score(y_test, y_pred_dl)
+
+print(f'Deep Learning Model Mean Squared Error: {dl_mse}')
+print(f'Deep Learning Model R^2 Score: {dl_r2}')
+
+```
+
+## KNN Model Parameters:
+
+- n_neighbors=5: The number of neighbors used in the KNN regression model.
+Algorithm: By default, KNN uses the 'auto' algorithm to decide the most appropriate method to compute nearest neighbors.
+Distance Metric: By default, KNN uses the Euclidean distance to find the nearest neighbors.
+Deep Learning Model Parameters:
+
+## Layers:
+- Input Layer: Connected to 128 neurons with ReLU activation.
+- Hidden Layer: 64 neurons with ReLU activation.
+- Output Layer: 1 neuron with linear activation for regression output.
+- Loss Function: Mean Squared Error (mean_squared_error) is used as the loss function, appropriate for regression tasks.
+- Optimizer: Adam optimizer is used, which is known for its efficiency and adaptive learning rate.
+- Metrics: The model tracks mean_squared_error and mae (Mean Absolute Error) during training.
+
+### Model Accuracy
+ KNN Model:
+
+ - Mean Squared Error (MSE): Measures the average of the squares of the errors—that is, the difference between the actual and predicted values.
+ - R² Score: Indicates how well the model's predictions match the actual values. A score of 1 indicates perfect predictions, while a score of 0 indicates that the model does no better than a horizontal line.
+ 
+ Deep Learning Model: 
+ - Mean Squared Error (MSE): Used to evaluate how well the model predicts the target values.
+ - R² Score: Used to assess the proportion of variance in the target variable that is predictable from the input features.
+ 
+### Overfitting / Underfitting
+- Overfitting:
+
+ - Occurs when a model learns not only the underlying patterns in the training data but also the noise, leading to poor generalization to new data.
+ - Symptoms include very low training error but significantly higher validation/test error.
+ - Indicators: In your deep learning model, if the validation MSE stops improving while the training MSE continues to decrease, this is a sign of overfitting.
+
+Underfitting:
+ - Occurs when a model is too simple to capture the underlying structure of the data, leading to poor performance on both training and test data.
+ - Symptoms include both high training and test errors.
+ - Indicators: If both training and validation MSE are high and don’t decrease significantly during training, this suggests underfitting.<BR><BR>
+
+ 
 # Future opportunities
 
 ### 1. **Feature Engineering and Enhancement:**
