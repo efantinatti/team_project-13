@@ -295,6 +295,6 @@ Underfitting:
   
   * [Alison Wu](https://your_url_here "Alison Wu's video")
   * [Angel Yang](https://your_url_here  "Angel Yang's video")
-  * [Ernani Fantinatti](https://your_url_here "Ernani Fantinatti's video")
+  * [Ernani Fantinatti](https://youtu.be/9ckPH-sXSW0 "Ernani Fantinatti's video for Team Project 2")
   * [Fredy Rincón](https://your_url_here "Fredy Rincón's video")
   * [James Li](https://your_url_here "James Li's video")
