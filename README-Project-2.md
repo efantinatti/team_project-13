@@ -128,3 +128,12 @@ Based on customer's age, we will also cross-reference the different generations 
 
 - **Open-Source Projects:** Contribute to or create open-source projects based on your work, enabling further community-driven improvements and collaborations.
 - **Interdisciplinary Collaboration:** Work with other domains, such as psychology or sociology, to refine models based on human behaviour insights.
+
+
+## Videos:
+  
+  * [Alison Wu](https://your_url_here "Alison Wu's video")
+  * [Angel Yang](https://your_url_here  "Angel Yang's video")
+  * [Ernani Fantinatti](https://your_url_here "Ernani Fantinatti's video")
+  * [Fredy Rincón](https://your_url_here "Fredy Rincón's video")
+  * [James Li](https://your_url_here "James Li's video")
