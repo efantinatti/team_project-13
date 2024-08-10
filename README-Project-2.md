@@ -5,7 +5,7 @@
 - [BE S.M.A.R.T.](#be-smart)
   - [Final S.M.A.R.T. Objective Statement:](#final-smart-objective-statement)
 - [Diagram](#diagram)
-- [Figures machine-learning explanation](#figures-machine-learning-explanation)
+- [Machine learning, Unsupervised Learning, K-Means Clustering](#machine-learning-unsupervised-learning-k-means-clustering)
 - [Database explanation](#database-explanation)
 - [Results](#results)
   - [KNN Model Parameters:](#knn-model-parameters)
@@ -28,7 +28,7 @@
 
 # Explain project
 
-- This project consists of the Customer Behaviour Dataset with its original 11 features and 350 rows. Other tables will compose the dataset, such as generations (synthetic ages based on actual years) and income average per city, as well as augmentation for Deep Learning usage and justification. The main goal is to test and evaluate our DL model in terms of accuracy, precision, recall, and train and test splits.
+This project consists of the Customer Behaviour Dataset with its original 11 features and 350 rows. Other tables will compose the dataset, such as generations (synthetic ages based on actual years), income average per city, and augmentation for Deep Learning usage and justification. The main goal is to test and evaluate our DL model regarding accuracy, precision, recall, and train and test splits.
 - Further git workflow will demonstrate our collaboration throughout this project.
 
 <BR>
@@ -41,17 +41,17 @@ The goals are:
 
 - To enhance the Customer Behaviour Dataset by integrating synthetic age generations and average income per city. We will apply data augmentation techniques to increase the size of the dataset.
 
-- (_Machine Learning, Unsupervised Learning_) To use the K-Means clustering algorithm to segment customers based on the Customer Behaviour Dataset. We will determine the optimal number of clusters through techniques like the Elbow method and Silhouette score. Finally, we will evaluate the quality of the segmentation using appropriate metrics such as inertia and silhouette score.
+- (_Machine Learning, Unsupervised Learning_) To use the K-Means clustering algorithm to segment customers based on the Customer Behaviour Dataset. We will determine the optimal number of clusters through techniques like the Elbow method and Silhouette score. Finally, we will evaluate the segmentation quality using appropriate metrics such as inertia and silhouette score.
 
 **Measurable:**
 
--       Success will be measured by achieving a minimum accuracy of 85%, precision of 80%, and recall of 75% on the test split of the dataset. Additionally, the project will involve documenting the complete process and tracking collaboration using a Git workflow, which will include at least two pull requests per team member and one final merged repository with all contributions.
+Success will be measured by achieving a minimum accuracy of 85%, precision of 80%, and recall of 75% on the dataset's test split. Additionally, the project will involve documenting the complete process and tracking collaboration using a Git workflow, which will include at least two pull requests per team member and one final merged repository with all contributions.
 
   **Achievable:**
 
 -       Given the manageable size of the dataset (350 rows with 11 original features) and the team's expertise, this objective is realistic. The project will utilize existing tools and frameworks, and the team has the necessary skills to implement the required data augmentation, model evaluation, and Git workflow.
   **Relevant:**
-- This objective is aligned with the broader goal of improving the team's capability in handling real-world customer behavior data and deploying DL models effectively. The project also demonstrates teamwork and version control practices, which are critical for collaborative data science projects.
+- This objective is aligned with the broader goal of improving the team's capability to handle real-world customer behaviour data and deploy DL models effectively. The project also demonstrates teamwork and version control practices, which are critical for collaborative data science projects.
   **Time-bound:**
 - The project will be completed within 6 weeks. The first 2 weeks will be dedicated to dataset preparation and augmentation, followed by 3 weeks for model training, testing, and evaluation. The final week will be reserved for documentation, Git workflow validation, and final review.
 
@@ -64,14 +64,14 @@ The goals are:
 ![Workflow Diagram](data/Images/Diagram_02.png "Figure 1 - Workflow diagram.")
 Figure 1 - Workflow diagram.
 
-# Figures machine-learning explanation
+# Machine learning, Unsupervised Learning, K-Means Clustering
 
-The data visualizations will be added once they are generated.
+- [Unsupervised Learning, K-Means Clustering](data/Code/Segmenting_Clients_Based_on_Buying_Habits.ipynb)
 
 # Database explanation
 
 - The customer behavior dataset has 350 rows and 11 columns.
-- The dataset contains 6 numerical variables and 5 categorical variables. From the outputs we can see that all variables are stored in the correct data type, and that there are no null values in the dataset
+- The dataset contains 6 numerical variables and 5 categorical variables. From the outputs, we can see that all variables are stored in the correct data type and that there are no null values in the dataset
 
 - ## Data cleaning
 
@@ -79,7 +79,7 @@ The data visualizations will be added once they are generated.
 * Ensure data types are appropriate.
 * Encode categorical variables if necessary.
 
-  For this task we will use the `sqllite3` library to load the data from a SQLite3 database and `pandas` to ETL.
+  For this task, we will use the `sqllite3` library to load data from an SQLite3 database and `pandas` to perform ETL.
 
   ```python
   import sqlite3
@@ -121,7 +121,7 @@ The data visualizations will be added once they are generated.
 
 - ### Database expansion (more features)
 
-  - To expand the database, we are considering to merge the main database table with income information based on city. We might be linking the city's median income with the membership type its residents hold.
+  - To expand the database, we consider merging the main database table with income information based on city. We might be linking the city's median income with the membership type its residents hold.
 
   ```python
   # Load the Income_by_City table
@@ -143,7 +143,7 @@ The data visualizations will be added once they are generated.
 
 - ### Database augmentation (add rows)
 
-Based on customer's age, we will also cross-reference the different generations (Gen X, Gen Z, Millenials, etc.) based on the decades the customers were born.
+Based on the customer's age, we will also cross-reference the different generations (Gen X, Gen Z, Millenials, etc.) based on the decades the customers were born.
 
 ```python
   # Merge the DataFrames
@@ -228,9 +228,9 @@ print(f'Deep Learning Model R^2 Score: {dl_r2}')
 
 ## KNN Model Parameters:
 
-- n_neighbors=5: The number of neighbors used in the KNN regression model.
-  Algorithm: By default, KNN uses the 'auto' algorithm to decide the most appropriate method to compute nearest neighbors.
-  Distance Metric: By default, KNN uses the Euclidean distance to find the nearest neighbors.
+- n_neighbors=5: The number of neighbours used in the KNN regression model.
+  Algorithm: By default, KNN uses the 'auto' algorithm to decide the most appropriate method to compute the nearest neighbours.
+  Distance Metric: By default, KNN uses the Euclidean distance to find the nearest neighbours.
   Deep Learning Model Parameters:
 
 ## Layers:
@@ -238,7 +238,7 @@ print(f'Deep Learning Model R^2 Score: {dl_r2}')
 - Input Layer: Connected to 128 neurons with ReLU activation.
 - Hidden Layer: 64 neurons with ReLU activation.
 - Output Layer: 1 neuron with linear activation for regression output.
-- Loss Function: Mean Squared Error (mean_squared_error) is used as the loss function, appropriate for regression tasks.
+- Loss Function: Mean Squared Error (mean_squared_error) is the loss function appropriate for regression tasks.
 - Optimizer: Adam optimizer is used, which is known for its efficiency and adaptive learning rate.
 - Metrics: The model tracks mean_squared_error and mae (Mean Absolute Error) during training.
 
@@ -247,7 +247,7 @@ print(f'Deep Learning Model R^2 Score: {dl_r2}')
 KNN Model:
 
 - Mean Squared Error (MSE): Measures the average of the squares of the errors—that is, the difference between the actual and predicted values.
-- R² Score: Indicates how well the model's predictions match the actual values. A score of 1 indicates perfect predictions, while a score of 0 indicates that the model does no better than a horizontal line.
+R² Score: This score indicates how well the model's predictions match the actual values. A score of 1 indicates perfect predictions, while a 0 indicates that the model does no better than a horizontal line.
 
 Deep Learning Model:
 
@@ -258,13 +258,13 @@ Deep Learning Model:
 
 - Overfitting:
 
-- Occurs when a model learns not only the underlying patterns in the training data but also the noise, leading to poor generalization to new data.
+- Occurs when a model learns the underlying patterns and noise in the training data, leading to poor generalization of new data.
 - Symptoms include very low training error but significantly higher validation/test error.
 - Indicators: In your deep learning model, if the validation MSE stops improving while the training MSE continues to decrease, this is a sign of overfitting.
 
 Underfitting:
 
-- Occurs when a model is too simple to capture the underlying structure of the data, leading to poor performance on both training and test data.
+- Occurs when a model is too simple to capture the underlying structure of the data, leading to poor training and test data performance.
 - Symptoms include both high training and test errors.
 - Indicators: If both training and validation MSE are high and don’t decrease significantly during training, this suggests underfitting.<BR><BR>
 
@@ -280,7 +280,7 @@ Underfitting:
 
 - **Hyperparameter Tuning:** Explore automated hyperparameter optimization techniques like Grid Search, Random Search, or Bayesian Optimization.
 - **Model Ensemble:** Combine multiple models (e.g., Random Forest with Deep Learning) to improve performance potentially.
-- **Transfer Learning:** Apply pre-trained models to new, related tasks with limited data. This is especially useful in scenarios with small datasets.
+- **Transfer Learning:** Apply pre-trained models with limited data to new, related tasks. This is especially useful in scenarios with small datasets.
 
 ### 3a. **Exploration of Machine Learning:**
 
