@@ -1,6 +1,30 @@
-# Make sure it is 80%!
+# Table of Contents
 
-# TOC
+- [Table of Contents](#table-of-contents)
+- [Explain project](#explain-project)
+- [BE S.M.A.R.T.](#be-smart)
+  - [Final S.M.A.R.T. Objective Statement:](#final-smart-objective-statement)
+- [Diagram](#diagram)
+- [Figures machine-learning explanation](#figures-machine-learning-explanation)
+- [Database explanation](#database-explanation)
+- [Results](#results)
+  - [KNN Model Parameters:](#knn-model-parameters)
+  - [Layers:](#layers)
+    - [Model Accuracy](#model-accuracy)
+    - [Overfitting / Underfitting](#overfitting--underfitting)
+- [Future opportunities](#future-opportunities)
+  - [1. **Feature Engineering and Enhancement:**](#1-feature-engineering-and-enhancement)
+  - [2. **Model Optimization and Experimentation:**](#2-model-optimization-and-experimentation)
+  - [3a. **Exploration of Machine Learning:**](#3a-exploration-of-machine-learning)
+  - [3b. **Exploration of Different Deep Learning Architectures:**](#3b-exploration-of-different-deep-learning-architectures)
+  - [4. **Data Augmentation and Synthetic Data Generation:**](#4-data-augmentation-and-synthetic-data-generation)
+  - [5. **Model Interpretability and Explainability:**](#5-model-interpretability-and-explainability)
+  - [6. **Deployment and Real-Time Inference:**](#6-deployment-and-real-time-inference)
+  - [7. **Integration with Other Technologies:**](#7-integration-with-other-technologies)
+  - [8. **Cross-Domain Application:**](#8-cross-domain-application)
+  - [9. **Continuous Learning and Model Updates:**](#9-continuous-learning-and-model-updates)
+  - [10. **Collaboration and Open-Source Contributions:**](#10-collaboration-and-open-source-contributions)
+  - [Videos:](#videos)
 
 # Explain project
 
@@ -13,14 +37,18 @@
 
 **Specific:**
 
-- The objective is to enhance the Customer Behaviour Dataset by integrating synthetic age generations and average income per city. We will apply data augmentation techniques to increase the size of the dataset.
+The goals are:
 
-- The objective is to utilize k means clustering algorithm to test our hypothesis about customer segmentation using the Customer Behaviour Dataset. We will apply hyperparameters tuning and cross validation techniques to ensure the model is optimized. Finally, we will evaluate the machine learning model's performance in terms of accuracy, precision, and recall.
+- To enhance the Customer Behaviour Dataset by integrating synthetic age generations and average income per city. We will apply data augmentation techniques to increase the size of the dataset.
+
+- (_Machine Learning, Unsupervised Learning_) To use the K-Means clustering algorithm to segment customers based on the Customer Behaviour Dataset. We will determine the optimal number of clusters through techniques like the Elbow method and Silhouette score. Finally, we will evaluate the quality of the segmentation using appropriate metrics such as inertia and silhouette score.
 
 **Measurable:**
 
 -       Success will be measured by achieving a minimum accuracy of 85%, precision of 80%, and recall of 75% on the test split of the dataset. Additionally, the project will involve documenting the complete process and tracking collaboration using a Git workflow, which will include at least two pull requests per team member and one final merged repository with all contributions.
+
   **Achievable:**
+
 -       Given the manageable size of the dataset (350 rows with 11 original features) and the team's expertise, this objective is realistic. The project will utilize existing tools and frameworks, and the team has the necessary skills to implement the required data augmentation, model evaluation, and Git workflow.
   **Relevant:**
 - This objective is aligned with the broader goal of improving the team's capability in handling real-world customer behavior data and deploying DL models effectively. The project also demonstrates teamwork and version control practices, which are critical for collaborative data science projects.
@@ -72,7 +100,7 @@ The data visualizations will be added once they are generated.
 
 - ## Data Engineering explanation
 
-  * Translate categorical attributes into numerical values so the model can interpret the values correctly. For example, gender, city, membership type, satisfaction level and discount applied.
+  - Translate categorical attributes into numerical values so the model can interpret the values correctly. For example, gender, city, membership type, satisfaction level and discount applied.
 
   ```python
   # Mapping Gender
@@ -87,11 +115,13 @@ The data visualizations will be added once they are generated.
   # Display the transformed DataFrame
   print(df.head())
   ```
+
   ![Workflow Diagram](data/Images/Data_Engineering_01.jpg "Figure 2 - Output.")
   Figure 2 - Output.
+
 - ### Database expansion (more features)
 
-  * To expand the database, we are considering to merge the main database table with income information based on city. We might be linking the city's median income with the membership type its residents hold.
+  - To expand the database, we are considering to merge the main database table with income information based on city. We might be linking the city's median income with the membership type its residents hold.
 
   ```python
   # Load the Income_by_City table
@@ -107,6 +137,7 @@ The data visualizations will be added once they are generated.
   # Display the merged DataFrame
   print(df_merged.head())
   ```
+
   ![Workflow Diagram](data/Images/Data_Engineering_02.jpg "Figure 3 - Output.")
   Figure 3 - Output.
 
@@ -122,13 +153,12 @@ Based on customer's age, we will also cross-reference the different generations 
   print(df_augmented.head())
 ```
 
-* how='left': This ensures that all rows from the df_generations DataFrame are retained, even if there is no corresponding entry in the Income_by_City table.
+- how='left': This ensures that all rows from the df_generations DataFrame are retained, even if there is no corresponding entry in the Income_by_City table.
 
   ![Workflow Diagram](data/Images/Data_Engineering_03.jpg "Figure 4 - Output.")
   Figure 4 - Output.
 
-
-- ## Feature Engineering
+* ## Feature Engineering
 
 # Results
 
@@ -199,11 +229,12 @@ print(f'Deep Learning Model R^2 Score: {dl_r2}')
 ## KNN Model Parameters:
 
 - n_neighbors=5: The number of neighbors used in the KNN regression model.
-Algorithm: By default, KNN uses the 'auto' algorithm to decide the most appropriate method to compute nearest neighbors.
-Distance Metric: By default, KNN uses the Euclidean distance to find the nearest neighbors.
-Deep Learning Model Parameters:
+  Algorithm: By default, KNN uses the 'auto' algorithm to decide the most appropriate method to compute nearest neighbors.
+  Distance Metric: By default, KNN uses the Euclidean distance to find the nearest neighbors.
+  Deep Learning Model Parameters:
 
 ## Layers:
+
 - Input Layer: Connected to 128 neurons with ReLU activation.
 - Hidden Layer: 64 neurons with ReLU activation.
 - Output Layer: 1 neuron with linear activation for regression output.
@@ -212,28 +243,31 @@ Deep Learning Model Parameters:
 - Metrics: The model tracks mean_squared_error and mae (Mean Absolute Error) during training.
 
 ### Model Accuracy
- KNN Model:
 
- - Mean Squared Error (MSE): Measures the average of the squares of the errors—that is, the difference between the actual and predicted values.
- - R² Score: Indicates how well the model's predictions match the actual values. A score of 1 indicates perfect predictions, while a score of 0 indicates that the model does no better than a horizontal line.
- 
- Deep Learning Model: 
- - Mean Squared Error (MSE): Used to evaluate how well the model predicts the target values.
- - R² Score: Used to assess the proportion of variance in the target variable that is predictable from the input features.
- 
+KNN Model:
+
+- Mean Squared Error (MSE): Measures the average of the squares of the errors—that is, the difference between the actual and predicted values.
+- R² Score: Indicates how well the model's predictions match the actual values. A score of 1 indicates perfect predictions, while a score of 0 indicates that the model does no better than a horizontal line.
+
+Deep Learning Model:
+
+- Mean Squared Error (MSE): Used to evaluate how well the model predicts the target values.
+- R² Score: Used to assess the proportion of variance in the target variable that is predictable from the input features.
+
 ### Overfitting / Underfitting
+
 - Overfitting:
 
- - Occurs when a model learns not only the underlying patterns in the training data but also the noise, leading to poor generalization to new data.
- - Symptoms include very low training error but significantly higher validation/test error.
- - Indicators: In your deep learning model, if the validation MSE stops improving while the training MSE continues to decrease, this is a sign of overfitting.
+- Occurs when a model learns not only the underlying patterns in the training data but also the noise, leading to poor generalization to new data.
+- Symptoms include very low training error but significantly higher validation/test error.
+- Indicators: In your deep learning model, if the validation MSE stops improving while the training MSE continues to decrease, this is a sign of overfitting.
 
 Underfitting:
- - Occurs when a model is too simple to capture the underlying structure of the data, leading to poor performance on both training and test data.
- - Symptoms include both high training and test errors.
- - Indicators: If both training and validation MSE are high and don’t decrease significantly during training, this suggests underfitting.<BR><BR>
 
- 
+- Occurs when a model is too simple to capture the underlying structure of the data, leading to poor performance on both training and test data.
+- Symptoms include both high training and test errors.
+- Indicators: If both training and validation MSE are high and don’t decrease significantly during training, this suggests underfitting.<BR><BR>
+
 # Future opportunities
 
 ### 1. **Feature Engineering and Enhancement:**
@@ -248,7 +282,11 @@ Underfitting:
 - **Model Ensemble:** Combine multiple models (e.g., Random Forest with Deep Learning) to improve performance potentially.
 - **Transfer Learning:** Apply pre-trained models to new, related tasks with limited data. This is especially useful in scenarios with small datasets.
 
-### 3. **Exploration of Different Deep Learning Architectures:**
+### 3a. **Exploration of Machine Learning:**
+
+- [Unsupervised Learning, K-Means Clustering](data/Code/Segmenting_Clients_Based_on_Buying_Habits.ipynb)
+
+### 3b. **Exploration of Different Deep Learning Architectures:**
 
 - **Recurrent Neural Networks (RNNs):** Dealing with time-sequenced customer data, RNNs or LSTMs for more predictive power.
 - **Convolutional Neural Networks (CNNs):** Consider using CNNs for pattern recognition in visual or spatial data.
@@ -290,11 +328,10 @@ Underfitting:
 - **Open-Source Projects:** Contribute to or create open-source projects based on your work, enabling further community-driven improvements and collaborations.
 - **Interdisciplinary Collaboration:** Work with other domains, such as psychology or sociology, to refine models based on human behaviour insights.
 
-
 ## Videos:
-  
-  * [Alison Wu](https://your_url_here "Alison Wu's video")
-  * [Angel Yang](https://your_url_here  "Angel Yang's video")
-  * [Ernani Fantinatti](https://youtu.be/9ckPH-sXSW0 "Ernani Fantinatti's video for Team Project 2")
-  * [Fredy Rincón](https://your_url_here "Fredy Rincón's video")
-  * [James Li](https://your_url_here "James Li's video")
+
+- [Alison Wu](https://your_url_here "Alison Wu's video")
+- [Angel Yang](https://your_url_here "Angel Yang's video")
+- [Ernani Fantinatti](https://youtu.be/9ckPH-sXSW0 "Ernani Fantinatti's video for Team Project 2")
+- [Fredy Rincón](https://your_url_here "Fredy Rincón's video")
+- [James Li](https://your_url_here "James Li's video")
