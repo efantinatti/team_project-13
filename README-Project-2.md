@@ -29,6 +29,7 @@
 # Explain project
 
 This project consists of the Customer Behaviour Dataset with its original 11 features and 350 rows. Other tables will compose the dataset, such as generations (synthetic ages based on actual years), income average per city, and augmentation for Deep Learning usage and justification. The main goal is to test and evaluate our DL model regarding accuracy, precision, recall, and train and test splits.
+
 - Further git workflow will demonstrate our collaboration throughout this project.
 
 <BR>
@@ -47,7 +48,7 @@ The goals are:
 
 Success will be measured by achieving a minimum accuracy of 85%, precision of 80%, and recall of 75% on the dataset's test split. Additionally, the project will involve documenting the complete process and tracking collaboration using a Git workflow, which will include at least two pull requests per team member and one final merged repository with all contributions.
 
-  **Achievable:**
+**Achievable:**
 
 -       Given the manageable size of the dataset (350 rows with 11 original features) and the team's expertise, this objective is realistic. The project will utilize existing tools and frameworks, and the team has the necessary skills to implement the required data augmentation, model evaluation, and Git workflow.
   **Relevant:**
@@ -247,7 +248,7 @@ print(f'Deep Learning Model R^2 Score: {dl_r2}')
 KNN Model:
 
 - Mean Squared Error (MSE): Measures the average of the squares of the errors—that is, the difference between the actual and predicted values.
-R² Score: This score indicates how well the model's predictions match the actual values. A score of 1 indicates perfect predictions, while a 0 indicates that the model does no better than a horizontal line.
+  R² Score: This score indicates how well the model's predictions match the actual values. A score of 1 indicates perfect predictions, while a 0 indicates that the model does no better than a horizontal line.
 
 Deep Learning Model:
 
@@ -333,5 +334,5 @@ Underfitting:
 - [Alison Wu](https://your_url_here "Alison Wu's video")
 - [Angel Yang](https://your_url_here "Angel Yang's video")
 - [Ernani Fantinatti](https://youtu.be/9ckPH-sXSW0 "Ernani Fantinatti's video for Team Project 2")
-- [Fredy L. Rincón](https://youtu.be/MoUIE0xfNag)
+- [Fredy L. Rincón](https://youtu.be/MoUIE0xfNag "Fredy Rincon's video for Team Project 2")
 - [James Li](https://your_url_here "James Li's video")
