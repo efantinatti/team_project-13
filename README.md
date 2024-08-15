@@ -269,37 +269,37 @@ Details of each component:
 ## Questions to discuss when reviewing your dataset:
 
 * What are the key variables and attributes in your dataset?<br>
-  * Alison Wu:<br>
+  * Alison Wu:<br> Age, Gender and Transaction details
   * Angel Yang:<br> : Gender, Total Spend
   * Ernani Fantinatti: Age, Membership Type, Items Purchased, Average Rating, Generation, Satisfaction Level.<br>
   * Fredy Rincón: Membership Type, Items Purchased and Total Spend
   * James Li: Gender, Discount Applied and Satisfaction Level<br>
 * How can we explore the relationships between different variables?<br>
-  * Alison Wu:<br>
+  * Alison Wu:<br>: Relationships can be explored through correlation analysis or regression modeling
   * Angel Yang:<br>: we can use python to create correlation plot, or run codes utilizing pandas data package
   * Ernani Fantinatti: Yes, specially between Age, Membership Type and Satisfaction Level.<br>
   * Fredy Rincón: We can use visualizations like boxplots and histograms to compare distributions, and statistical tests like ANOVA to identify significant differences. Regression models help quantify relationships between variables.<br>
   * James Li: Using chi-square method<br>
 * Are there any patterns or trends in the data that we can identify?<br>
-  * Alison Wu:<br>
+  * Alison Wu:<br>: Patterns can include purchasing trends across different demographics
   * Angel Yang:<br>: overall, male customers spent more than female customer.
   * Ernani Fantinatti: Yes, Higher prices grows with age.<br>
   * Fredy Rincón: Customers with Gold and Silver memberships tend to purchase slightly more items than Bronze members.Also, higher total spend is strongly associated with purchasing more items.<br>
   * James Li: Yes, for males, discounts seem to cause dissatisfaction, while for females, the response to discounts is mixed and might depend on other factors not captured in this dataset.<br>
 * Who is the intended audience for our data analysis?<br>
-  * Alison Wu:<br>
+  * Alison Wu:<br>: The intended audience can include e-commerce businesses, marketing teams, and customer experience managers looking to optimize their strategies and improve customer satisfaction.
   * Angel Yang:<br>: marketing team of the ecommerce company 
   * Ernani Fantinatti: Companies interested in understanding the consumer market in general for Age group, generations and cities.<br>
   * Fredy Rincón: The intended audience includes marketing teams, business analysts, and decision-makers interested in understanding customer purchasing behavior and improving membership benefits.<br>
   * James Li: Marketing department<br>
 * What is the question our analysis is trying to answer?<br>
-  * Alison Wu:<br>
+  * Alison Wu:<br>: How different factors such as demographics, membership levels, and discounts influence customer behavior and satisfaction
   * Angel Yang:<br>: which demographic variables can be used as predictor of a high value customer 
   * Ernani Fantinatti: What age group are intending to spend more.<br>
   * Fredy Rincón: Do customers with a Gold membership buy more items than those with Silver or Bronze memberships?<br>
   * James Li: The difference in sensitivity of genders reaction of discounts being applied or not<br>
 * Are there any specific libraries or frameworks that are well-suited to our project requirements?<br>
-  * Alison Wu:<br>
+  * Alison Wu:<br>: Pandas, NumPy and Matplotlib
   * Angel Yang:<br> sklearn, pandas, matplotlib
   * Ernani Fantinatti: Pandas, matplotlib. SM Model Spec, one-hot-encoding, SQLite3.<br>
   * Fredy Rincón: Libraries like Pandas and NumPy for data manipulation, Matplotlib and Seaborn for visualization, and scikit-learn for statistical modeling and regression analysis are well-suited for our project.<br>

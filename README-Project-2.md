@@ -331,7 +331,7 @@ Underfitting:
 
 ## Videos:
 
-- [Alison Wu](https://your_url_here "Alison Wu's video")
+- [Alison Wu](https://drive.google.com/file/d/13jSKJbLm5KNJr3n9_hvTY0Wlb07J5uqu/view?usp=sharing "Alison Wu's video")
 - [Angel Yang](https://your_url_here "Angel Yang's video")
 - [Ernani Fantinatti](https://youtu.be/9ckPH-sXSW0 "Ernani Fantinatti's video for Team Project 2")
 - [Fredy L. Rincón](https://youtu.be/MoUIE0xfNag "Fredy Rincon's video for Team Project 2")
