@@ -335,4 +335,4 @@ Underfitting:
 - [Angel Yang](https://your_url_here "Angel Yang's video")
 - [Ernani Fantinatti](https://youtu.be/9ckPH-sXSW0 "Ernani Fantinatti's video for Team Project 2")
 - [Fredy L. Rincón](https://youtu.be/MoUIE0xfNag "Fredy Rincon's video for Team Project 2")
-- [James Li](https://your_url_here "James Li's video")
+- [James Li](https://drive.google.com/file/d/1-Ip7zhVihFEpUhsP7Mapt1CSDI6nNdWd/view?usp=drive_link "James Li's video")
