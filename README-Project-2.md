@@ -1,6 +1,30 @@
-# Make sure it is 80%!
+# Table of Contents
 
-# TOC
+- [Table of Contents](#table-of-contents)
+- [Explain project](#explain-project)
+- [BE S.M.A.R.T.](#be-smart)
+  - [Final S.M.A.R.T. Objective Statement:](#final-smart-objective-statement)
+- [Diagram](#diagram)
+- [Machine learning, Unsupervised Learning, K-Means Clustering](#machine-learning-unsupervised-learning-k-means-clustering)
+- [Database explanation](#database-explanation)
+- [Results](#results)
+  - [KNN Model Parameters:](#knn-model-parameters)
+  - [Layers:](#layers)
+    - [Model Accuracy](#model-accuracy)
+    - [Overfitting / Underfitting](#overfitting--underfitting)
+- [Future opportunities](#future-opportunities)
+  - [1. **Feature Engineering and Enhancement:**](#1-feature-engineering-and-enhancement)
+  - [2. **Model Optimization and Experimentation:**](#2-model-optimization-and-experimentation)
+  - [3a. **Exploration of Machine Learning:**](#3a-exploration-of-machine-learning)
+  - [3b. **Exploration of Different Deep Learning Architectures:**](#3b-exploration-of-different-deep-learning-architectures)
+  - [4. **Data Augmentation and Synthetic Data Generation:**](#4-data-augmentation-and-synthetic-data-generation)
+  - [5. **Model Interpretability and Explainability:**](#5-model-interpretability-and-explainability)
+  - [6. **Deployment and Real-Time Inference:**](#6-deployment-and-real-time-inference)
+  - [7. **Integration with Other Technologies:**](#7-integration-with-other-technologies)
+  - [8. **Cross-Domain Application:**](#8-cross-domain-application)
+  - [9. **Continuous Learning and Model Updates:**](#9-continuous-learning-and-model-updates)
+  - [10. **Collaboration and Open-Source Contributions:**](#10-collaboration-and-open-source-contributions)
+  - [Videos:](#videos)
 
 # Explain project
 
@@ -81,6 +105,10 @@ Based on customer's age, we will also cross-reference the different generations 
 - **Advanced Demographics:** Integrate more granular demographic data, such as education level, occupation, or household composition, to enrich the model's understanding.
 - **Behavioral Features:** Track and include customer interaction data from various channels (e.g., website visits, social media engagement).
 
+- **Temporal Features:** Incorporate time-series data, such as tracking customer behaviour over time, to predict future actions or trends.
+- **Advanced Demographics:** Integrate more granular demographic data, such as education level, occupation, or household composition, to enrich the model's understanding.
+- **Behavioral Features:** Track and include customer interaction data from various channels (e.g., website visits, social media engagement).
+
 ### 2. **Model Optimization and Experimentation:**
 
 - **Hyperparameter Tuning:** Explore automated hyperparameter optimization techniques like Grid Search, Random Search, or Bayesian Optimization.
@@ -98,7 +126,13 @@ Based on customer's age, we will also cross-reference the different generations 
 - **Synthetic Data Creation:** Use Generative Adversarial Networks (GANs) to create more synthetic data to simulate various customer scenarios.
 - **Simulated Customer Journeys:** Generate synthetic customer behaviour paths to test model robustness under different scenarios.
 
+- **Synthetic Data Creation:** Use Generative Adversarial Networks (GANs) to create more synthetic data to simulate various customer scenarios.
+- **Simulated Customer Journeys:** Generate synthetic customer behaviour paths to test model robustness under different scenarios.
+
 ### 5. **Model Interpretability and Explainability:**
+
+- **SHAP or LIME:** Implement SHAP (SHapley Additive exPlanations) or LIME (Local Interpretable Model-agnostic Explanations) to interpret the predictions of your deep learning model.
+- **Ethical AI Practices:** Focus on creating explainable models to address ethical concerns, especially around customer privacy.
 
 - **SHAP or LIME:** Implement SHAP (SHapley Additive exPlanations) or LIME (Local Interpretable Model-agnostic Explanations) to interpret the predictions of your deep learning model.
 - **Ethical AI Practices:** Focus on creating explainable models to address ethical concerns, especially around customer privacy.
@@ -108,7 +142,13 @@ Based on customer's age, we will also cross-reference the different generations 
 - **Real-Time Prediction:** Implement the model for real-time customer behaviour prediction in production environments.
 - **Edge Computing:** Deploy models on edge devices to predict customer behaviour in environments with limited connectivity.
 
+- **Real-Time Prediction:** Implement the model for real-time customer behaviour prediction in production environments.
+- **Edge Computing:** Deploy models on edge devices to predict customer behaviour in environments with limited connectivity.
+
 ### 7. **Integration with Other Technologies:**
+
+- **Recommendation Systems:** Use customer behaviour insights to build or improve recommendation engines.
+- **Sentiment Analysis:** Integrate NLP techniques to analyze customer feedback and refine the model based on customer sentiment.
 
 - **Recommendation Systems:** Use customer behaviour insights to build or improve recommendation engines.
 - **Sentiment Analysis:** Integrate NLP techniques to analyze customer feedback and refine the model based on customer sentiment.
@@ -119,7 +159,14 @@ Based on customer's age, we will also cross-reference the different generations 
 
 - **Financial Fraud Detection:** Use the deep learning model for fraud detection by analyzing transaction behaviours.
 
+**Healthcare Analytics:** Apply the model architecture or techniques to other domains, such as healthcare, to predict patient behaviour.
+
+- **Financial Fraud Detection:** Use the deep learning model for fraud detection by analyzing transaction behaviours.
+
 ### 9. **Continuous Learning and Model Updates:**
+
+- **Lifelong Learning:** Implement systems that allow the model to learn continuously from new data without retraining from scratch.
+- **Feedback Loops:** Create systems where the model's predictions can be validated with actual outcomes and improve over time.
 
 - **Lifelong Learning:** Implement systems that allow the model to learn continuously from new data without retraining from scratch.
 - **Feedback Loops:** Create systems where the model's predictions can be validated with actual outcomes and improve over time.
